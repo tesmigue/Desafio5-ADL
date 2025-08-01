@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Contactos" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -22,4 +23,10 @@
     </style>
 
     <style name="Theme.Contactos" parent="Base.Theme.Contactos" />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Contactos" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> 6623959f2a7b4be4e7dbef139f22602805302bff
 </resources>
