@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_editar_grupo"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Editar grupo" />
+
+    <item
+        android:id="@+id/menu_eliminar_grupo"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Eliminar grupo" />
+
+</menu>
