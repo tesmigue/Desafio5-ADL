@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.tesmigue.contactos"
+    namespace = "com.tesmigue.contacto"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.tesmigue.contactos"
+        applicationId = "com.tesmigue.contacto"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

@@ -1,7 +1,8 @@
-package com.sakhura.contactos.utils
+package com.tesmigue.contacto.utils
 
 
 import android.content.Context
+import com.tesmigue.contacto.model.Contacto
 import android.provider.ContactsContract
 
 object ContactosUtils {

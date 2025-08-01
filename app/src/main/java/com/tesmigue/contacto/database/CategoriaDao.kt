@@ -1,8 +1,8 @@
-package com.tesmigue.contactos.database
+package com.tesmigue.contacto.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.tesmigue.contactos.model.Categoria
+import com.tesmigue.contacto.model.Categoria
 
 @Dao
 interface CategoriaDao {

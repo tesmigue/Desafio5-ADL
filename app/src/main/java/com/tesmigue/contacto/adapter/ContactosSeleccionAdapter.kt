@@ -1,9 +1,10 @@
-package com.tesmigue.contactos.adapter
+package com.tesmigue.contacto.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.tesmigue.contactos.databinding.ItemCheckboxContactoBinding
+import com.tesmigue.contacto.databinding.ItemCheckboxContactoBinding
+import com.tesmigue.contacto.model.Contacto
 
 // Clase simple para manejar el estado de selección sin extensiones
 data class ContactoSeleccionState(

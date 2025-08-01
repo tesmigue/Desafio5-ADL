@@ -1,4 +1,4 @@
-package com.sakhura.contactos.utils
+package com.tesmigue.contacto.utils
 
 object ValidationUtils {
     fun validarFormulario(nombre: String, telefono: String, email: String): Boolean {

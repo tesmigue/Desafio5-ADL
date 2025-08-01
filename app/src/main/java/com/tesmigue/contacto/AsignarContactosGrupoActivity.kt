@@ -1,13 +1,13 @@
-package com.tesmigue.contactos
+package com.tesmigue.contacto
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.tesmigue.contactos.adapter.ContactosSeleccionAdapter
-import com.tesmigue.contactos.databinding.ActivityAsignarContactosBinding
-import com.tesmigue.contactos.viewmodel.ContactosViewModel
+import com.tesmigue.contacto.adapter.ContactosSeleccionAdapter
+import com.tesmigue.contacto.databinding.ActivityAsignarContactosBinding
+import com.tesmigue.contacto.viewmodel.ContactosViewModel
 
 class AsignarContactosGrupoActivity : AppCompatActivity() {
 

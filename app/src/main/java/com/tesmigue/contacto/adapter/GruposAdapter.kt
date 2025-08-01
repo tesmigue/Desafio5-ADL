@@ -1,4 +1,4 @@
-package com.tesmigue.contactos.adapter
+package com.tesmigue.contacto.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.tesmigue.contactos.R
+import com.tesmigue.contacto.model.Contacto
+import com.tesmigue.contacto.R
 
 class ContactosGrupoAdapter(
     private var contactos: List<Contacto> = emptyList(),

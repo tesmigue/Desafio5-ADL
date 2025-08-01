@@ -1,4 +1,4 @@
-package com.tesmigue.contactos.model
+package com.tesmigue.contacto.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,8 +1,13 @@
-package com.tesmigue.contactos.repository
+package com.tesmigue.contacto.repository
 
 import androidx.lifecycle.LiveData
-import com.tesmigue.contactos.database.*
-import com.tesmigue.contactos.model.*
+import com.tesmigue.contacto.database.CategoriaDao
+import com.tesmigue.contacto.database.ContactoDao
+import com.tesmigue.contacto.database.GrupoDao
+
+
+import com.tesmigue.contacto.model.*
+import com.tesmigue.contacto.model.Contacto
 
 class ContactosRepository(
     private val contactoDao: ContactoDao,

@@ -1,9 +1,10 @@
-package com.tesmigue.contactos.adapter
+package com.tesmigue.contacto.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.tesmigue.contactos.databinding.ItemContactoBinding
+import com.tesmigue.contacto.model.Contacto
+import com.tesmigue.contacto.databinding.ItemContactoBinding
 
 class ContactosAdapter(
     private var lista: List<Contacto>,

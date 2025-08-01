@@ -1,11 +1,11 @@
-package com.tesmigue.contactos
+package com.tesmigue.contacto
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.tesmigue.contactos.databinding.ActivityAgregarContactoBinding
-import com.tesmigue.contactos.utils.ValidationUtils
-import com.tesmigue.contactos.viewmodel.ContactosViewModel
+import com.tesmigue.contacto.databinding.ActivityAgregarContactoBinding
+import com.tesmigue.contacto.utils.ValidationUtils
+import com.tesmigue.contacto.viewmodel.ContactosViewModel
 
 class AgregarContactoActivity : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package com.tesmigue.contactos.viewmodel
+package com.tesmigue.contacto.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -7,9 +7,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import com.tesmigue.contactos.database.ContactosDatabase
-import com.tesmigue.contactos.model.*
-import com.tesmigue.contactos.repository.ContactosRepository
+import com.tesmigue.contacto.database.ContactosDatabase
+import com.tesmigue.contacto.model.*
+import com.tesmigue.contacto.repository.ContactosRepository
 
 class ContactosViewModel(application: Application) : AndroidViewModel(application) {
 

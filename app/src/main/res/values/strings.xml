@@ -1,5 +1,4 @@
 <resources>
-
     <string name="app_name">Contactos</string>
 
     <!-- MainActivity -->
@@ -52,7 +51,4 @@
     <string name="aceptar">Aceptar</string>
     <string name="por_implementar">Funcionalidad por implementar</string>
 
-=======
-    <string name="app_name">contactos</string>
->>>>>>> 6623959f2a7b4be4e7dbef139f22602805302bff
 </resources>

@@ -1,8 +1,8 @@
-package com.tesmigue.contactos.database
+package com.tesmigue.contacto.database
 
 import android.content.Context
 import androidx.room.*
-import com.tesmigue.contactos.model.*
+import com.tesmigue.contacto.model.*
 
 @Database(
     entities = [

@@ -1,4 +1,4 @@
-package com.tesmigue.contactos
+package com.tesmigue.contacto
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,9 +10,10 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.tesmigue.contactos.adapter.ContactosAdapter
-import com.tesmigue.contactos.databinding.ActivityMainBinding
-import com.tesmigue.contactos.viewmodel.ContactosViewModel
+import com.tesmigue.contacto.adapter.ContactosAdapter
+import com.tesmigue.contacto.databinding.ActivityMainBinding
+import com.tesmigue.contacto.viewmodel.ContactosViewModel
+import com.tesmigue.contacto.model.Contacto
 
 class MainActivity : AppCompatActivity() {
 

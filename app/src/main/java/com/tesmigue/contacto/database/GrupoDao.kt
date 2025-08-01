@@ -1,8 +1,8 @@
-package com.tesmigue.contactos.database
+package com.tesmigue.contacto.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.tesmigue.contactos.model.*
+import com.tesmigue.contacto.model.*
 
 @Dao
 interface GrupoDao {
@@ -46,9 +46,12 @@ interface GrupoDao {
     @Query("SELECT COUNT(*) FROM contactos c INNER JOIN ContactoGrupoCrossRef cgr ON c.id = cgr.contactoId WHERE cgr.grupoId = :grupoId")
     suspend fun contarContactosEnGrupo(grupoId: Int): Int
 
+    @RewriteQueriesToDropUnusedColumns
     @Query("SELECT * FROM contactos c INNER JOIN ContactoGrupoCrossRef cgr ON c.id = cgr.contactoId WHERE cgr.grupoId = :grupoId")
     fun obtenerContactosDeGrupo(grupoId: Int): LiveData<List<Contacto>>
 
+
+    @RewriteQueriesToDropUnusedColumns
     @Query("SELECT * FROM grupos g INNER JOIN ContactoGrupoCrossRef cgr ON g.id = cgr.grupoId WHERE cgr.contactoId = :contactoId")
     fun obtenerGruposDeContacto(contactoId: Int): LiveData<List<Grupo>>
 }

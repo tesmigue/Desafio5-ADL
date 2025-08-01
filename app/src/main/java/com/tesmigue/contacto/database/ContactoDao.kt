@@ -1,7 +1,8 @@
-package com.tesmigue.contactos.database
+package com.tesmigue.contacto.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.tesmigue.contacto.model.Contacto
 
 @Dao
 interface ContactoDao {

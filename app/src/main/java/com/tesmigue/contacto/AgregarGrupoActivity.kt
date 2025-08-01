@@ -1,4 +1,4 @@
-package com.tesmigue.contactos
+package com.tesmigue.contacto
 
 import android.os.Bundle
 import android.widget.Button
@@ -6,8 +6,8 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.tesmigue.contactos.model.Grupo
-import com.tesmigue.contactos.viewmodel.ContactosViewModel
+import com.tesmigue.contacto.model.Grupo
+import com.tesmigue.contacto.viewmodel.ContactosViewModel
 
 class AgregarGrupoActivity : AppCompatActivity() {
 

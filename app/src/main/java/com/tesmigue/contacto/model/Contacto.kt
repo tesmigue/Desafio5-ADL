@@ -1,8 +1,9 @@
-package com.tesmigue.contactos.model
+package com.tesmigue.contacto.model
 
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
+import androidx.room.Index
 
 @Entity(
     tableName = "contactos",
@@ -11,7 +12,8 @@ import androidx.room.PrimaryKey
         parentColumns = ["id"],
         childColumns = ["categoriaId"],
         onDelete = ForeignKey.CASCADE
-    )]
+    )],
+    indices = [Index(value = ["categoriaId"])]
 )
 data class Contacto(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
