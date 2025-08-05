@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Contactos" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+
+    <item name="colorPrimary">@color/tu_color_primario</item>
+        <item name="colorPrimaryDark">@color/tu_color_primario_oscuro</item>
+        <item name="colorAccent">@color/tu_color_acento</item>
+
+        <!-- Opcional pero recomendable: definir estos para evitar errores -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorOnSurfaceVariant">@color/black</item>
+    </style>
+</resources>

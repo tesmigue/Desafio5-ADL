@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tu_color_primario">#6200EE</color>
+    <color name="tu_color_primario_oscuro">#3700B3</color>
+    <color name="tu_color_acento">#03DAC5</color>
+    <color name="colorOnSurface">#000000</color> <!-- negro -->
+    <color name="colorOnSurfaceVariant">#444444</color> <!-- gris oscuro -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

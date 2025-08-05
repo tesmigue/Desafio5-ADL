@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activityAgregarGrupo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F4F8">
+
+    <EditText
+        android:id="@+id/etNombreGrupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Grupo"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#37474F"
+        android:textColorHint="#78909C"
+        android:background="@android:drawable/edit_text"
+        android:fontFamily="@font/poppins_family"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnGuardarGrupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Guardar"
+        android:fontFamily="@font/poppins_family"
+        android:backgroundTint="#FF7043"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

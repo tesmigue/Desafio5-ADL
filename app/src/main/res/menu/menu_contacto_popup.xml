@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_ver_detalles"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Ver detalles" />
+
+    <item
+        android:id="@+id/menu_editar_contacto"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Editar" />
+
+    <item
+        android:id="@+id/menu_compartir_contacto"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Compartir" />
+
+    <item
+        android:id="@+id/menu_eliminar_contacto"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Eliminar" />
+
+</menu>

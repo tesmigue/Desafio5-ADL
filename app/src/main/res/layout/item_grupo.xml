@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:elevation="3dp"
+    android:radius="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/ivIconoGrupo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_manage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tint="#FF7043" />
+
+        <TextView
+            android:id="@+id/tvNombreGrupo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:fontFamily="@font/poppins_family"
+            app:layout_constraintTop_toTopOf="@id/ivIconoGrupo"
+            app:layout_constraintStart_toEndOf="@id/ivIconoGrupo"
+            app:layout_constraintEnd_toStartOf="@id/btnMenuGrupo" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="#546E7A"
+            android:fontFamily="@font/poppins_family"
+            app:layout_constraintTop_toBottomOf="@id/tvNombreGrupo"
+            app:layout_constraintStart_toEndOf="@id/ivIconoGrupo"
+            app:layout_constraintEnd_toStartOf="@id/btnMenuGrupo" />
+
+        <TextView
+            android:id="@+id/tvContadorContactos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="#78909C"
+            android:fontFamily="@font/poppins_family"
+            app:layout_constraintTop_toBottomOf="@id/tvDescripcion"
+            app:layout_constraintStart_toEndOf="@id/ivIconoGrupo"
+            app:layout_constraintEnd_toStartOf="@id/btnMenuGrupo" />
+
+        <ImageButton
+            android:id="@+id/btnMenuGrupo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Opciones del grupo"
+            android:src="@android:drawable/ic_menu_more"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tint="#546E7A" />
+
+        <Button
+            android:id="@+id/btnAsignarContactos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Asignar Contactos"
+            android:fontFamily="@font/poppins_family"
+            android:textColor="#FF7043"
+            android:backgroundTint="#D3D3D3"
+            app:layout_constraintTop_toBottomOf="@id/tvContadorContactos"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
